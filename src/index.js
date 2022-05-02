@@ -1,5 +1,5 @@
 function TestFramework() {
-  console.log("Test");
+  console.log("Code from npm-test-package");
 }
 
 module.exports = { TestFramework };

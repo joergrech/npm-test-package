@@ -1,6 +1,6 @@
 {
   "name": "@test/npm-test-package",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "This is a test to learn about npm packages.",
   "main": "dist/index.js",
   "scripts": {
@@ -23,11 +23,8 @@
   "publishConfig": {
     "registry": "https://npm.paydevs.io"
   },
-  "funding": {
-    "type" : "paydevs",
-    "url" : "https://npm.paydevs.io/@test/npm-test-package"
-  },
   "dependencies": {
+    "clean": "3.0.2"
   },
   "devDependencies": {
   }
