@@ -8,9 +8,28 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/npm/cli.git"
+    "url": "https://github.com/joergrech/npm-test-package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joergrech/npm-test-package/issues"
   },
   "keywords": ["Test","Don't Use"],
-  "author": "Jörg Rech",
-  "license": "MIT"
+  "author": {
+    "name" : "Jörg Rech",
+    "email" : "joerg.rech@gmail.com",
+    "url" : "https://joergrech.com/"
+  },
+  "license": "MIT",
+  "private": true,
+  "publishConfig": {
+    "registry": "https://npm.paydevs.io"
+  },
+  "funding": {
+    "type" : "paydevs",
+    "url" : "https://npm.paydevs.io/@test/npm-test-package"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
 }
