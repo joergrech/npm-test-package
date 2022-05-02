@@ -1,0 +1,16 @@
+{
+  "name": "@test/npm-test-package",
+  "version": "1.0.0",
+  "description": "This is a test to learn about npm packages.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/cli.git"
+  },
+  "keywords": ["Test","Don't Use"],
+  "author": "Jörg Rech",
+  "license": "MIT"
+}
