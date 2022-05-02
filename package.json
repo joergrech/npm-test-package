@@ -20,7 +20,6 @@
     "url" : "https://joergrech.com/"
   },
   "license": "MIT",
-  "private": true,
   "publishConfig": {
     "registry": "https://npm.paydevs.io"
   },
@@ -31,5 +30,5 @@
   "dependencies": {
   },
   "devDependencies": {
-  },
+  }
 }
